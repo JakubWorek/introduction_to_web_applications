@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.edit-product-container {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.edit-product-container div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Ustawia elementy div w kolumnie */
+}
+
+.edit-product-container label {
+  margin-bottom: 5px;
+}
+
+.edit-product-container input,
+.edit-product-container textarea {
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.edit-product-container button {
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.header div {
+  margin: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.home div {
+  margin: 5px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.loginForm div {
+  margin: 10px;
+}
