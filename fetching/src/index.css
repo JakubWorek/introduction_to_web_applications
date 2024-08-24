@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(17 24 39);
+}
+
+table.basic{
+  @apply w-full bg-gray-900 rounded-sm shadow-md;
+}
+
+table.basic thead tr td,
+table.basic thead tr th
+{
+  @apply text-sm text-emerald-600 uppercase border border-black py-2 px-4;
+}
+
+table.basic tbody tr td,
+table.basic tbody tr th
+{
+  @apply text-sm text-gray-300 border border-black py-2 px-4;
+}
+
+table.basic tr td{
+  @apply px-4 py-1;
+}
+
+table.basic a{
+  @apply px-4 rounded-sm inline-flex mx-1 items-center gap-1 text-sm py-1;
+}
